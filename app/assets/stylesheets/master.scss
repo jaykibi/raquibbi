@@ -11,10 +11,21 @@
 .subheader {
   text-align: center;
   font-size: 30px;
-
+  color: white;
+  font-weight: bold;
 }
 
 .desc {
   text-align: center;
+  color: white;
+  font-weight: bold;
+}
 
+body {
+  background: image_url('fallout.jpg')no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 600px;
 }
