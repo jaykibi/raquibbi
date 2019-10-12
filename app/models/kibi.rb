@@ -1,0 +1,2 @@
+class Kibi < ApplicationRecord
+end
