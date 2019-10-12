@@ -1,0 +1,2 @@
+module KibisHelper
+end
