@@ -1,0 +1,11 @@
+<br />
+<h1 class="experimental-kibi">Care to tell me who you are and where you work?</h1>
+
+<div class="subheader col-8 offset-2">
+  <%= simple_form_for @kibi do |f| %>
+    <%= f.input :name, label: 'Your name please' %>
+    <%= f.input :description, label: 'Name of your workplace please' %>
+    <%= f.input :address, label: 'Actual work address please' %>
+    <%= f.submit 'Send it!!' %>
+  <% end %>
+</div>
