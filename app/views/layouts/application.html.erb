@@ -10,6 +10,20 @@
   </head>
 
   <body>
+
+    <header class="row">
+      <div class="col-3">
+        <%= link_to 'HOME', root_path %>
+      </div>
+      <div class="col-4">
+        All Quizzes are here!! 
+      </div>
+      <div class="col-5">
+        <%= link_to 'Quiz #2', new_kibi_path %>
+        <%= link_to 'Quiz #3', '#' %>
+      </div>
+    </header>
+
     <%= yield %>
   </body>
 </html>
